@@ -1,0 +1,168 @@
+body {
+  background: black;
+  width: 100%;
+}
+
+.page {
+  box-sizing: content-box;
+  min-height: 750px;
+  width: 100%;
+}
+
+/*NAVBAR*/
+
+.row {
+  margin: 10px auto;
+}
+
+.header a {
+   font-family: "Dry Brush";
+   font-size: 1.75em;
+   color: black;
+   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+ }
+
+/*INDEX*/
+
+#index {
+  background-image: url(../images/tomo-nogi-189346.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#name {
+  font-size: 5em;
+  margin: 0;
+  padding-top: 7em;
+  /*padding-left: 600px;*/
+  font-family: "Dry Brush";
+}
+
+#tagline {
+  font-size: 2em;
+  font-family: "Permanent Marker";
+  margin-top: -15px;
+}
+
+/* PROJECTS */
+
+h1 {
+  font-family: "Dry Brush";
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+img {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.wrapper {
+  border-radius: 3px;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+.wrapper:after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#hackathonbtn {
+  background-image: url("../images/hackathonhome.png");
+}
+
+#postcardsbtn {
+  background-image: url("../images/postcardshome.png");
+}
+
+#traveloguebtn {
+  background-image: url("../images/traveloguehome.png");
+}
+
+.projectname {
+  font-family: "Permanent Marker";
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: black;
+  font-size: 2em;
+}
+
+.btn:hover {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+}
+
+.modal {
+  background-image: url("../images/asanoha-400px.png");
+
+}
+
+.goup {
+  margin-top: 100px;
+  color: white;
+  transform: rotate(-45deg);
+}
+
+/* CONTACT */
+
+#headshot {
+  width: 95%;
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-bottom: 20px;
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+#about {
+  color: white;
+  font-family: "Roboto";
+  font-size: 1.2em;
+}
+
+#links {
+  padding-top: 4em;
+}
+
+#links li {
+  margin-bottom: 30px;
+}
+
+#links li a {
+  font-family: "AlphaMack AOE";
+  font-size: 3em;
+  color: white;
+}
+
+.git {
+  color: black;
+}
