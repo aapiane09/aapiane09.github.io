@@ -16,7 +16,7 @@ body {
 }
 
 .header a {
-   font-family: "Dry Brush";
+   font-family: 'dry_brushregular';
    font-size: 1.75em;
    color: black;
    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -42,7 +42,7 @@ body {
   margin: 0;
   padding-top: 7em;
   /*padding-left: 600px;*/
-  font-family: "Dry Brush";
+  font-family: 'dry_brushregular';
 }
 
 #tagline {
@@ -54,7 +54,7 @@ body {
 /* PROJECTS */
 
 h1 {
-  font-family: "Dry Brush";
+  font-family: 'dry_brushregular';
   color: white;
   text-align: center;
   padding-top: 50px;
