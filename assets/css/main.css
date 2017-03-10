@@ -22,6 +22,11 @@ body {
    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
  }
 
+.header a:hover {
+  -webkit-animation: flash .5s;
+  animation: flash .5s;
+}
+
 /*INDEX*/
 
 #index {
