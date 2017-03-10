@@ -3,12 +3,9 @@ $( document ).ready(function() {
 
   //Open and close modals
   $('.modal').modal();
-
   $('.closemodal').click(function(){
     $('.modal').modal('close');
   })
-
-  $('.carousel').carousel();
 
   // Smooth scrolling
   $(function() {

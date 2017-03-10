@@ -99,8 +99,8 @@ img {
   background-image: url("../images/hackathonhome.png");
 }
 
-#postcardsbtn {
-  background-image: url("../images/postcardshome.png");
+#intrpretrbtn {
+  background-image: url("../images/intrpretrhome.png");
 }
 
 #traveloguebtn {
@@ -111,7 +111,7 @@ img {
   font-family: "Permanent Marker";
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   color: black;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .btn:hover {
@@ -119,9 +119,16 @@ img {
   animation: pulse 1s;
 }
 
+
 .modal {
   background-image: url("../images/asanoha-400px.png");
+}
 
+.icons {
+  max-width: 25px;
+  max-height: 25px;
+  margin-top: 5px;
+  border-width: 0;
 }
 
 .goup {
@@ -149,8 +156,14 @@ img {
   font-size: 1.2em;
 }
 
+.linklogo {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 20px;
+}
+
 #links {
-  padding-top: 4em;
+  padding-top: 1em;
 }
 
 #links li {
