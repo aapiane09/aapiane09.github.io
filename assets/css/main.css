@@ -23,8 +23,8 @@ body {
  }
 
 .header a:hover {
-  -webkit-animation: flash .5s;
-  animation: flash .5s;
+  -webkit-animation: pulse .5s;
+  animation: pulse .5s;
 }
 
 /*INDEX*/
@@ -181,6 +181,10 @@ img {
   color: white;
 }
 
+#links li a {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+}
 .git {
   color: black;
 }
