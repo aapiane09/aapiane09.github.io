@@ -120,8 +120,8 @@ img {
 }
 
 .btn:hover {
-  -webkit-animation: pulse 1s;
-  animation: pulse 1s;
+  -webkit-animation: flash .5s;
+  animation: flash .5s;
 }
 
 
