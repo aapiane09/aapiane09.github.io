@@ -25,7 +25,6 @@ body {
 .headerlinks:hover {
   -webkit-animation: flash .5s;
   animation: flash .5s;
-  color: white;
 }
 
 /*INDEX*/
