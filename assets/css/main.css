@@ -15,16 +15,17 @@ body {
   margin: 10px auto;
 }
 
-.header a {
+.headerlinks {
    font-family: 'dry_brushregular';
    font-size: 1.75em;
    color: black;
    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
  }
 
-.header a:hover {
+.headerlinks:hover {
   -webkit-animation: flash .5s;
   animation: flash .5s;
+  color: white;
 }
 
 /*INDEX*/
@@ -179,6 +180,11 @@ img {
   font-family: "alphamack_aoeregular";
   font-size: 3em;
   color: white;
+}
+
+#links li a:hover {
+  -webkit-animation: flash 1s;
+  animation: flash 1s;
 }
 
 .git {
