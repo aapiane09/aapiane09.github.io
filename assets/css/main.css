@@ -181,7 +181,7 @@ img {
   color: white;
 }
 
-#links li a {
+#links li a:hover {
   -webkit-animation: pulse 1s;
   animation: pulse 1s;
 }
